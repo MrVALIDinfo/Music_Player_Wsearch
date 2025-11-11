@@ -27,4 +27,4 @@ A simple web-based music player with search functionality. You can search for so
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/Music_Player_Wsearch.git
+git clone https://github.com/MrVALIDinfo/Music_Player_Wsearch.git
