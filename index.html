@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Search Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-container">
+     
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search for songs, artists, albums...">
+        </div>
+
+        <div class="player-container">
+    
+            <div class="track-left">
+                <img src="https://cdn-icons-png.flaticon.com/512/727/727245.png" alt="cover" class="track-cover-large" id="track-cover">
+    
+                <div class="track-controls">
+                    <button class="control-btn" id="prev-btn">⏮</button>
+                    <button class="control-btn" id="play-pause-btn">▶</button>
+                    <button class="control-btn" id="next-btn">⏭</button>
+                </div>
+
+                <div class="progress-container">
+                    <span id="current-time">0:00</span>
+                    <input type="range" id="progress-bar" min="0" max="100" value="0">
+                    <span id="total-time">0:00</span>
+                </div>
+            </div>
+
+            <div class="track-right">
+                <h2 class="track-title">Song Title</h2>
+                <p class="track-artist">by Artist Name</p>
+                <p class="track-album">Album: Example Album</p>
+                <p class="track-description">Use the search bar above to find songs 🎵</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
